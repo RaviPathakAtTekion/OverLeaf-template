@@ -1,0 +1,178 @@
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\vspace{3pt}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Ravi Pathak}} & Email: \href{mailto:}{ravipathak934@gmail.com}\\
+  Mobile:~~~+91 9618840603 \\
+  \href{https://github.com/Ravi-Pathak-demo}{Github: ~~github.com/Ravi-Pathak-demo} \\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{~~Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lovely Professional University}{Punjab, India}
+      {Bachelor of Technology - Computer Science and Engineering;  GPA: 7.85}{July 2019 - June 2023}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis Of Algorithms, Web Development, Computer Networking, Databases, Coding Languages}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{3pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~HTML5, CSS3, JavaScript, Java}
+        \resumeSubItem{Libraries}{~~~~~~~~Redux, Redux-Toolkit, React-Redux, Lodash}
+	\resumeSubItem{Frameworks}{~~~~React, Express}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~GIT, MySQL, DBMS}
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, MongoDB, NodeJS}
+	\resumeSubItem{Soft Skills}{~~~~~~~Management, Communication, Versatility , Fellowship, Productiveness}
+\vspace{-5pt}
+\resumeSubHeadingListEnd
+\vspace{5pt}
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading{Tekion}{Bengaluru}
+    {Front-End Intern}{Jan 2023 - June 2023}
+    \resumeItemListStart
+        \resumeItem{PR Tracker Table}
+          {Developed a React Table-based Table Manager for Tracking PR in the Company, with advanced features like filters, search, and sorting.
+          \vspace{2pt}
+          \\ {--}
+          It offers a seamless back-end experience. Leveraging MongoDB as the database and employing REST API for efficient data manipulation.}
+          \vspace{3pt}
+          \resumeItem{Keyboard Shortcut}
+          {Implemented keyboard shortcuts for web-page, enhancing user experience and streamlining navigation.
+          \\
+          \vspace{2pt}
+          {--}
+          These shortcuts eliminate manual scrolling and boost productivity during resume evaluation}
+          \resumeItem{REST API}{Implemented API for real-Time Data Fetching from MongoDB for Table.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+%-----------PROJECTS-----------------
+\vspace{5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{Anime Website - (Web Development)}{ Developed an anime website with a visually appealing and user-friendly interface resembling the original site.
+\vspace{2pt}
+\\ {--} Implemented key features, ensured responsive design, and utilized concepts of Search Engine Optimization. 
+\vspace{2pt}
+\\ {--} Worked closely with designers and developers at Tekion to successfully deliver an exceptional Website. 
+\vspace{2pt}
+\\ {--} Technologies used: React, JavaScript, REST API, Redux, SCSS.}
+\vspace{5pt}
+\resumeSubItem{ Banking System (Worked on Core Concepts, Web Development)}{Implemented a Banking System using standard technologies. 
+\vspace{2pt}
+\\ {--} optimized website performance through code optimization.
+\vspace{2pt}
+\\ {--} conducted rigorous testing and debugging to resolve front-end issues.
+\vspace{2pt}
+\\ {--} gained proficiency in JS fundamentals and adhered to front-end working standards as a Demo Project. 
+\vspace{2pt}
+\\ {--} Technologies used: JavaScript, HTML5, CSS, NodeJS, Express.}
+\resumeSubHeadingListEnd
+\vspace{4pt}
+
+%-----------Awards-----------------
+\section{Certificates}
+\begin{description}[font=$\bullet$]
+\item {\textbf{TCS-iON Carrier Edge} - Young Professional}
+\vspace{-5pt}
+\item {\textbf{MongoDB Basics} - MongoDB University }
+\vspace{-5pt}
+\item {\textbf{Modern Big Data Analysis by SQL} - Coursera}
+
+\end{description}
+
+\vspace{4pt}
+\section{Volunteer Experience}
+  \resumeSubHeadingListStart
+	\resumeSubheading
+    {Community Member at GDSC (Google Developer Students Club)}{LPU, India}
+    {Worked on Team-work \& Collaboration \& Understanding of Goggle Cloud.}{ May 22 - May 23}
+\vspace{5pt}
+    \resumeSubheading
+    {NCC (National Cadets Corps)}{LPU, India}
+    {Cadet of Prestigious Institute, Building Character \& Social Responsibility, Community Service.} { Aug 19 - Feb 23}
+\vspace{5pt}
+
+    \resumeSubheading
+    {Coding Blocks Technical Member (CB)}{LPU, India}
+    {Tech Member of Coding Blocks for 6 Months, Improved Coding Skills and Web Development.} { Jan 22 - July 23}
+
+\resumeSubHeadingListEnd
+
+\end{document}
